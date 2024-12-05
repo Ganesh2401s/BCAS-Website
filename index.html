@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bhaskaracharya College of Applied Sciences Grid Website </title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts Api with 7 different fonts -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Great+Vibes&family=Allura&family=Parisienne&family=Tangerine&family=Space+Grotesk&family=Kablammo&display=swap" />
+  <!-- Google Icon Api -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+
+<body>
+  <div class="gridContainer">
+    <div class="grid_items header" id="gridItem1">
+      <img src="img/bcaslogo.jfif" alt="bcasLogo" />
+      <div class="headerContent">
+        <h1>Bhaskaracharya College of Applied Sciences</h1>
+        <p>University Of Delhi</p>
+        <p class="achtags">
+          Accredited "A++" Grade by <b>NAAC</b>
+          <em style="font-weight: 900">.</em> 'Star College Status' by DBT
+          <em style="font-weight: 900">.</em> 2024 <b>NIRF</b> Ranking-27
+        </p>
+      </div>
+    </div>
+    <div class="grid_items verticalNavBAr" id="gridItem2">
+
+      <button id="defaultOpen" class="tablinks" onclick="webSection(event, 'about')" >About College</button>
+       
+      <button class="tablinks"  onclick="webSection(event, 'departmentPhysics')" >Physics Department</button>
+      <button   class="tablinks"  onclick = "webSection(event, 'departmentMicroBiology')" > MicroBiology Department</button>
+      <button  class="tablinks"  onclick="webSection(event, 'facilities')"  >Facilities</button>
+      <button  class="tablinks"  onclick="webSection(event, 'student')" >Students</button>
+      <button   class="tablinks"  onclick="webSection(event, 'downloads')" >Downloads</button> 
+      <button  class="tablinks"  onclick="webSection(event, 'publications')" >Publications</button>
+
+    </div>
+
+    <div title="displayContent" class="tab " id="gridItem3">
+
+      <div class="tabcontent" id="about">
+        <h3>ABOUT <br> THE COLLEGE</h3>
+        <p>Bhaskaracharya College of Applied Sciences is a constituent college of the University of Delhi and one of the top ranked colleges in India. Established in 1995, the college offers undergraduate courses in various disciplines of sciences and applied sciences. The institution has been honoured with 'Star College' status by the Department of Biotechnology, Government of India.</p>
+      </div>
+      
+      <div class="tabcontent" id="departmentPhysics">
+        <h1> Physics Department </h1>
+        <p>Physics, is the branch of science that examines and offers a logical framework to understand the world around us, focuses on matter, energy, space and time. It is one of the oldest academic disciplines of basic science, which has made significant contributions to our understanding of the numerous physical phenomena all around us. The advances and understanding of this field have been translated into new technologies and new ideas. The Department of Physics at Bhaskaracharya College of Applied Sciences tries to provide a stimulating environment to the students to gain a real insight into these new technologies and develop an acumen for further investigation and research in these fields. Ever since its inception, excellence in teaching and research has been the hallmark of our department. Over the years, the Department has produced graduates sought by industry, the professionals, and the public service as well as providing researchers for the future. The Department has state-of-the-art laboratories with all latest and sophisticated equipment needed to help the students have an experimental insight into the subject as prescribed by the syllabus. Some of the key equipment include Color Digital Storage Oscilloscope, Microprocessor Kits, Spectrometers, LCR Q-testers, Laser Kits, Universal Interferometer, Ultrasonic Grating Experimental Kit with CCD Camera, P-E Hysteresis Experiment Kit, Digital I.C. Testers etc. The Department has introduced both quantitative (problem-oriented) and qualitative (motivational in nature) approach to experiments in the laboratories. Workshops are organised from time to time to make the students familiar with these equipment.</p>
+       </div>
+        <div class="tabcontent" id="departmentMicroBiology">
+          <h1> MicroBiology Department </h1>
+          <h3>About the Course</h3>
+          <p>The course curriculum provides a balanced introduction to both basic and applied aspects of Microbiology and allied fields. Microbiologists are employed in variety of industries ranging from Food, Dairy, Pharmaceuticals, Chemicals to Hospitality industry. The students are acquainted with the knowledge about all major groups of microorganisms and their influence and application in our daily lives and how their potential can be harnessed for the betterment of the human life.
+
+          </p>
+        </div>
+
+          <div class="tabcontent" id="facilities">
+            <h1> Facilities </h1>
+          </div>
+            <div class="tabcontent" id="student">
+              <h1> Students </h1>  
+      </div>
+
+
+
+
+    </div>
+
+    <div class="grid_items" id="gridItem4">
+      <div class="address">
+        <address>Phase 1, Sector 2, Dwarka, New Delhi Delhi, 110075</address>
+        <address>bhaskaracharua.college@bcas.du.ac.in</address>
+    </div>
+    <p>
+      © 2024 Bhaskaracharya College of Applied Sciences. All Rights
+      Reserved.
+  </p>
+ 
+</div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
